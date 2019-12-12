@@ -8,4 +8,4 @@ def reverse_array(input)
     end
     print reverse_array
 end 
-reverse_array([1,2,3,4,5])
+reverse_array([1,2,3,4,5,6])
