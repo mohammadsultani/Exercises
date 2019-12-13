@@ -1,7 +1,8 @@
-def sum_of_evens(array)
-    a = array.flatten.select{ |x| x%2==0 }.inject do |acc,el|  
-           acc + el
-           end
-      p a
-end
-sum_of_evens([1,2,4,6,8,10])
+def is_coprime?(a,b)
+    if (a%2==0 && b%2==0) || (a%3==0 && b%3==0) || (a%5==0 && b%5==0) || (a%7==0 && b%7==0)
+        p false 
+    else 
+        p true
+    end
+end 
+is_coprime?(25,12)
