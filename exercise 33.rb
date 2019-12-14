@@ -9,6 +9,7 @@
 # This means that the object_id of the input string should be identical to the object_id of the returned string
 
 def replace_char_at!(string, char, index)
+    char.slice!(1..)
    string[index] = char
     p string
 end
