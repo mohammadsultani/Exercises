@@ -52,7 +52,7 @@ end
 # run_tests runs each of the test cases.
 def run_tests()
     check_solution(1, 2, ["Dog", "Rabbit", "Cat", "Hamster"], ["Cat", "Hamster", "Dog", "Rabbit"])
-    check_solution(2, 1, ["NEW YORK", "TOKYO", "LONDON"], ["TOKYO", "LONDON", "NEW YORK"])
+    check_solution(2, 7, ["NEW YORK", "TOKYO", "LONDON"], ["TOKYO", "LONDON", "NEW YORK"])
     check_solution(3, -3, ["grapes", "mango", "durian", "mangosteen"], ["mango", "durian", "mangosteen", "grapes"])
 end
 
