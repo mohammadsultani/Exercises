@@ -20,4 +20,4 @@ def roman_numeral(input_number)
     v.times {print "V"}
     i.times {print "I"}
 end
-roman_numeral(6280) 
+roman_numeral(444)

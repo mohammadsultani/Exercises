@@ -6,4 +6,4 @@ seg_array.push(c)
 seg_array.push(b)
 print seg_array.flatten
 end
-segregate([0,9,9,9,9,0,9,0,9])
+segregate([0,9,9,0,9,0,9,0,9])
