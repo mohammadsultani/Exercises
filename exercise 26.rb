@@ -1,6 +1,6 @@
 =begin I found it easier to do with arrays rather than hashes.
-I tried couple of times with hash, but I could'nt get the
-output the right output.
+I tried couple of times with hash, but I could'nt get the right
+output.
 =end 
 
 puts "give me a sentence."
