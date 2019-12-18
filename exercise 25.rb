@@ -12,4 +12,5 @@ def nth_power_of_evens(array,power)
     end
     p result
 end
+
 nth_power_of_evens([1,2,4,2,5],4)
