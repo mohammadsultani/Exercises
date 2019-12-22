@@ -67,7 +67,6 @@ elsif hour == 24
      end
 else hours.push(hour)
 end
-
 puts "What activity do you want to perform at this time?"
 activity1 = gets.chomp
 activities.push(activity1)
