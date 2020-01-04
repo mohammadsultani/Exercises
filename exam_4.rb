@@ -5,7 +5,6 @@
 def upcase_keys_selector(hash)
     # Write your code here
     hash.delete_if { |key,value| key=~/\A[a-z]|[Y]/ }
-    return hash
 end
 
 print upcase_keys_selector({"make"=> "Tesla", "MODEL"=> "S", "Year"=> 2018, "SEATS"=> 4}) == {"MODEL"=>"S", "SEATS"=>4}

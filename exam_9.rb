@@ -4,15 +4,7 @@
 
 def only_name(arr)
     # Write your code here
-    i = 0
-    b = []
-    loop do
-    v = arr[i]
-    v.map { |n| b.push(v["name"]) }
-    i += 1
-    break if i == arr.length
-    end
-    return b.uniq!
+    return arr.map { |hash| hash["name"] }
 end
 
 
