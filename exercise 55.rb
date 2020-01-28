@@ -4,11 +4,11 @@
 
 # Write Your method code here
 # Psuedocode for bubble sort.
-# Take an array of number as input.
-# Check each two adjacent numbers in array.
-# If the first number is greater than the second.
-# Then ,swap the numbers.
-# Stop the program if no swap was done over a complete iteration.   
+# 1-Take an array of number as input.
+# 2-Check each two adjacent numbers in array.
+# 3-If the first number is greater than the second.
+# 4-Then ,swap the numbers.
+# 5-Stop the program if no swap was done over a complete iteration.   
 
 def bubble_sort(array)
     switch = 0
