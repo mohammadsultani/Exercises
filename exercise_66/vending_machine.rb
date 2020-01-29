@@ -118,11 +118,11 @@ end
 end
 
 p return_coins(coins, 98) == [50, 20, 10, 10, 1, 1, 1, 1, 1, 1, 1, 1]
-=begin
+
 # Test Case 8
 coins = []
 8.times do
-  coins << 10
+  coins << 1
 end
 2.times do
   coins << 20
@@ -132,9 +132,8 @@ end
   coins << 15
   coins << 10
 end
-p coins
-p return_coins(coins, 98)# == [50, 20, 20, 1, 1, 1, 1, 1, 1, 1, 1]
-=end
+p return_coins(coins, 98) == [50, 20, 20, 1, 1, 1, 1, 1, 1, 1, 1]
+
 # Test Case 9
 coins = []
 8.times do
