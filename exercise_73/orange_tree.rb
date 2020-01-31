@@ -37,7 +37,7 @@ class NoOrangesError < StandardError
 end
 
 class OrangeTree
-  attr_reader :age ,:height
+ # attr_reader :age ,:height
   # Constructor for the tree
   def initialize(age, height)
     # constructor code goes here
@@ -45,12 +45,23 @@ class OrangeTree
     @height = height
   end
 
+  def height
+  @height
+  end
+  def age
+    @age 
+  end
   # Ages the tree one year
   def age!
     #tree aging code goes here
-    @age
+    if @age < 45
+      @age += 1
+      @height += 100
+      else 
+        "The tree is died"
+    end
   end
-
+  
   # Returns +true+ if there are any oranges on the tree, +false+ otherwise
   def any_oranges?
     # code to check if tree has any oranges goes here
@@ -58,6 +69,7 @@ class OrangeTree
 
   def dead?
     # check if tree is dead code goes here
+   @age >= 45 ? true : false
   end
 
   # Returns an Orange if there are any
@@ -74,8 +86,8 @@ class Orange
     @diameter = diameter
   end
 end
-tree = OrangeTree.new(5, "30cm")
 
+tree = OrangeTree.new(40, 30)
 =begin
 tree.age! until tree.any_oranges?
 
@@ -104,5 +116,7 @@ end
 
 puts "Alas, the tree, she is dead!"
 =end
-puts tree.height
+puts tree.age!
+puts tree.dead?
+puts tree.age!
 
